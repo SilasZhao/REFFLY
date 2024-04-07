@@ -2,7 +2,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3,4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
+import torch
+torch.cuda.set_device('cuda:3')  # Set the default device to GPU 2
 import json
 from tqdm import tqdm
 import torch

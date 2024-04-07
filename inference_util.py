@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 import pickle
 #perplexity
 #diversity
-file = open("/home/songyan/Real_M2L-main/llama/cmu_dict.pkl",'rb')
+import sys
+sys.path.append("/home/songyan/Melody2Lyric/")
+file = open("/home/songyan/Melody2Lyric/cmu_dict.pkl",'rb')
 cmu_dict = pickle.load(file)
 file.close()
 # print(cmu_dict)
