@@ -1,6 +1,6 @@
 # REFFLY
 
-**REFFLY: Melody-Constrained Lyrics Editing Model**
+**REFFLY: Melody-Constrained Lyrics Editing Model, NAACL 2025**
 
 [Paper](https://arxiv.org/abs/2409.00292), [Demo](https://anonymous-account-xxx.github.io/anonymous_demo/), [Website](https://arxiv.org/abs/2409.00292)
 
